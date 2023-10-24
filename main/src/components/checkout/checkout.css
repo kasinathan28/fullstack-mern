@@ -1,0 +1,192 @@
+/* General Styles */
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation Styles */
+nav {
+  margin-bottom: 20px;
+  background-color: #021024;
+  color: white;
+  height: 100px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  margin-left: 40px;
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  background-color: white;
+}
+
+.img {
+  width: 70px;
+  margin-right: 10px;
+  height: auto;
+}
+
+/* Dropdown Menu Styles */
+.nav-opt {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 40px;
+}
+
+.login-btn2 {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px 15px;
+}
+
+.dropdown-menu {
+  position: absolute;
+  right: 0;
+  top: 100%;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: none;
+  z-index: 1;
+}
+
+.dropdown-item {
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.dropdown-item:hover {
+  background-color: #f5f5f5;
+}
+
+.nav-opt:hover .dropdown-menu {
+  display: block;
+}
+
+/* Container Styles */
+.container {
+  margin: auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Product Details Styles */
+.product-details1 {
+  border: 1px solid #000;
+  border-radius: 10px;
+  width: 40%;
+  padding: 10px;
+  margin: 20px;
+}
+
+.product-details1 h2 {
+  font-size: 20px;
+  color: #007bff;
+}
+
+.product-details1 img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+.product-details1 h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+.product-details1 h4 {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.product-details1 .description {
+  color: #555;
+}
+
+.product-details1 .price {
+  font-weight: bold;
+  color: #007bff;
+}
+
+/* Checkout Form Styles */
+.checkout-form1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  width: 40%;
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  margin: 20px;
+}
+
+.del-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 20px;
+}
+
+.del-form .form-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+
+.del-form .form-field label {
+  font-weight: bold;
+  text-align: left;
+}
+
+.del-form .form-field input {
+  width: 97%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Submit Button Styles */
+.submit-button1 {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-right: 40px;
+}
+
+.submit-button1:hover {
+  background-color: #0056b3;
+}
+
+/* Custom Checkbox Styles */
+.form-field .custom-checkbox-label input[type="checkbox"] {
+  margin-left: -320px;
+}
+
+.form-field .custom-checkbox-label span {
+  font-size: 16px;
+  margin-left: -300px;
+  color: #333;
+}

@@ -1,0 +1,207 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  p {
+    font-size: 18px;
+  }
+  .text{
+    text-decoration: none;
+    color: white;
+  }
+ 
+  /* YourComponent.css */
+/* YourComponent.css */
+.background-container {
+    background-image: url("./images/bg.jpeg");
+    background-size: 100% auto; /* 100% width, auto height */
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Optional, for a fixed background */
+    /* Other background properties, if needed */
+  }
+  
+/* .bg-container{
+    width: 100%;
+    height: 100%;
+} */
+  nav {
+    margin-bottom: 20px;
+    background-color: #021024;
+    color: white;
+    height: 100px;
+    z-index: 1;
+    display: flex;
+    align-items: center; /* Vertically center the content */
+  }
+   
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+  }
+  
+  .logo {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    background-color: white;
+  }
+  
+  .img {
+    width: 70px;
+    margin-right: 10px;
+    height: auto;
+  }
+.login-btn {
+    background-color: #5483b3; /* Background color */
+    color: white; /* Text color */
+    width: 80px;
+    height: 50px;
+    margin-left: 1700px;
+    margin-top: 5px;
+    border: none; /* Remove the border */
+    border-radius: 30px; /* Rounded corners */
+    cursor: pointer; /* Show a pointer cursor on hover */
+    font-size: 16px; /* Font size */
+  }
+  
+  /* Hover effect */
+  .login-btn:hover {
+    background-color: #fff;
+    .text{
+      color: black;
+    }
+  }
+
+
+  /* user_signup.css */
+/* user_signup.css */
+
+.bg-img{
+    height: 700px;
+}
+.div1 {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Add a container to hold each label and input pair */
+  .field-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+    flex: 1; /* Labels take up 50% of the available space */
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="password"] {
+    flex: 2; /* Inputs take up 50% of the available space */
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: none;
+  }
+  
+  select {
+    flex: 2; /* Select inputs take up 50% of the available space */
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: none;
+  }
+  
+  button[type="submit"] {
+    background-color: #5483b3;
+    color: #fff;
+    margin-top: 30px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+
+  /* Profile Picture Area */
+.profile-picture-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.profile-picture-label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.profile-picture-input {
+  margin-bottom: 10px;
+}
+
+.profile-picture-input input[type="file"] {
+  display: none; /* Hide the default file input */
+}
+
+.profile-picture-input label {
+  background-color: #007bff;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+/* .profile-picture-input label:hover {
+  background-color: #0056b3;
+} */
+
+
+/* Show the selected file name when a file is selected */
+
+/* .field-container label {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+} */
+.field-container input[type="file"] {
+  display: flex; /* Hide the default file input */
+  background:#ddd;
+}
+
+
+.field-container .selected-file {
+  display: block;
+  padding: 5px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-top: 5px;
+}

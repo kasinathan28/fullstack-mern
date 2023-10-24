@@ -1,0 +1,122 @@
+/* Body and general styles */
+body {
+  margin-bottom: 100px;
+}
+
+.main-h1 {
+  margin: 10px;
+  margin-bottom: 30px;
+}
+
+/* Container for product cards */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+}
+
+/* Product card styles */
+.product-card {
+  width: 19%;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.product-card:last-child {
+  
+  margin-right: 0;
+}
+
+.product-card:hover {
+  transform: scale(1.02);
+}
+
+/* Product image styles */
+.product-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px 5px 0 0;
+}
+
+/* Product details styles */
+.product-details {
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.product-details h4 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.product-details .description {
+  font-size: 14px;
+  color: #555;
+  margin: 10px 0;
+}
+
+.product-details .price {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+  color: #000;
+  margin-bottom: 10px;
+
+}
+
+/* Product list container */
+.product-list {
+  
+  padding: 20px;
+}
+
+/* Navigation options styles */
+.nav-opt {
+  text-align: right;
+  padding: 10px;
+  display: flex;
+  
+}
+
+/* Edit and Delete button styles */
+/* Styling for the edit button */
+.edit-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Styling for the delete button */
+.delete-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Position the delete button to the right of the edit button */
+.product-details .edit-button {
+  margin-right: 0; /* Remove the right margin for the edit button */
+}
+
+.product-details .delete-button {
+  margin-left: 90px; /* Add a left margin to separate the delete button */
+  margin-top: -35px;
+}
+
+/* Hover styles for both buttons */
+.edit-button:hover {
+  background-color: #45a049;
+}
+
+.delete-button:hover {
+  background-color: #e53935;
+}

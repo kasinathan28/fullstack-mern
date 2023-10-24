@@ -1,0 +1,61 @@
+/* Styling for the edit product container */
+.edit-product-container {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 30px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for the edit product heading */
+.edit-product-heading {
+  font-size: 24px; 
+  margin-bottom: 20px;
+}
+
+/* Styling for the edit product form */
+.edit-product-form {
+  justify-content: left;
+  text-align: left;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Styling for form fields */
+.form-field {
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+/* Styling for labels */
+.form-field label {
+  padding: 10px;
+  font-weight: bold;
+}
+
+/* Styling for input fields */
+.input-field {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Styling for the update button */
+.update-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.update-button:hover {
+  background-color: #0056b3;
+}

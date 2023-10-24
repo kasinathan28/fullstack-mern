@@ -1,0 +1,150 @@
+/* Body and general styles for user dashboard */
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar styles */
+nav {
+  margin-bottom: 20px;
+  background-color: #021024;
+  color: white;
+  height: 100px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+}
+
+/* Logo container styles */
+.logo-container {
+  display: flex;
+  justify-content: center;
+  margin-left: 40px;
+}
+
+/* Logo styles */
+.logo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  background-color: white;
+}
+
+.img {
+  width: 70px;
+  margin-right: 10px;
+  height: auto;
+}
+
+/* Dropdown menu styles *//* Dropdown menu styles */
+.nav-opt {
+  position: relative;
+  display: inline-block;
+}
+
+.login-btn2 {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px 15px;
+}
+
+.dropdown-menu {
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 100%;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: none;
+  z-index: 1;
+}
+
+.dropdown-item {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.dropdown-item:hover {
+  background-color: #f5f5f5;
+}
+
+.nav-opt:hover .dropdown-menu {
+  display: block;
+}
+
+
+.nav-opt:hover .dropdown-menu {
+  display: block;
+}
+
+/* ... Rest of your CSS styles ... */
+
+/* Product cards container styles */
+.product-cards-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping to the next row */
+  justify-content: space-between; /* Space between cards in a row */
+}
+
+/* Product card styles in user dashboard */
+.product-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  width: calc(30% - 20px); /* Adjust the width to fit three cards in a row */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* ... Your other CSS styles ... */
+/* Buy button styles */
+.buy-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  width: 100px;
+  text-decoration: none;
+  border-radius: 30px;
+  padding: 8px 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.buy-button:hover {
+  background-color: #0056b3;
+}
+/* Sort select styles */
+.sort-select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: #fff;
+  color: #333;
+}
+
+/* Sort select option styles */
+.sort-select option {
+  cursor: pointer;
+  font-size: 16px;
+  background-color: #fff;
+  color: #333;
+}

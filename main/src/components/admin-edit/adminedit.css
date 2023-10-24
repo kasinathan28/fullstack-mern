@@ -1,0 +1,18 @@
+.admin-edit-container{
+    width: 500px;
+    border: 1px solid #ddc;
+    padding: 10px;
+    justify-content: center;
+    margin: auto;
+
+}
+
+.update-btn-conatiner{
+    margin-top:-20px;
+}
+.update-button{
+    width: 150px;
+    justify-content: center;
+    margin: auto;
+}
+

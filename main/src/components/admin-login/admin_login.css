@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  p {
+    font-size: 18px;
+  }
+
+
+
+  nav {
+    margin-bottom: 20px;
+    background-color: #021024;
+    color: white;
+    height: 100px;
+    z-index: 1;
+    display: flex;
+    align-items: center; /* Vertically center the content */
+  }
+  
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+  }
+  
+  .logo {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    background-color: white;
+  }
+  
+  .img {
+    width: 70px;
+    margin-right: 10px;
+    height: auto;
+  }
+/* Define CSS properties for the "login-btn1" class */
+.login-btn2 {
+  background-color: #3498db; /* Background color */
+  color: #fff;              /* Text color */
+  padding: 10px 20px;       /* Padding around the text */
+  border: none;  
+  margin-left: 1690px;           /* Remove the border */
+  border-radius: 30px;       /* Add rounded corners */
+  text-decoration: none;    /* Remove underlines */
+  display: inline-block;    /* Display as a block-level element */
+  font-size: 16px;          /* Font size */
+  cursor: pointer;          /* Cursor style on hover */
+  text-align: center;
+  /* You can add more styles as needed */
+}
+
+/* Define styles for when the button is hovered over */
+.login-btn2:hover {
+  background-color: #2980b9; /* Change background color on hover */
+}
+
+
+  /* user_signup.css */
+/* user_signup.css */
+
+.bg-img{
+    height: 700px;
+}
+
+.main{
+  width: 100%;
+  height: 100%;
+}
+.div1 {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Add a container to hold each label and input pair */
+  .field-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+    flex: 1; /* Labels take up 50% of the available space */
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="password"] {
+    flex: 2; /* Inputs take up 50% of the available space */
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: none;
+  }
+  
+  select {
+    flex: 2; /* Select inputs take up 50% of the available space */
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: none;
+  }
+  
+  button[type="submit"] {
+    background-color: #5483b3;
+    color: #fff;
+    margin-top: 30px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* user_dashboard.css */
+
+.cards-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 300px;
+    padding: 10px;
+  margin: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-content {
+  padding: 10px;
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.card p {
+  margin: 10px 0;
+}
+
+/* Add more styles as needed */
+
+/* Additional styles for the rest of your component can be added here */
+/* Add this CSS to your user_dashboard.css file or a separate CSS file */
+.buy-now {
+  background-color: #3498db; /* Change this color to your preferred button color */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.buy-now:hover {
+  background-color: #0056b3; /* Change this color to your preferred hover color */
+}
+
+

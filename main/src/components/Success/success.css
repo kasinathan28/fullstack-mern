@@ -1,0 +1,70 @@
+.custom-shape-divider-top-1697578780 {
+    position: absolute;
+    top:100px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1697578780 svg {
+    position: relative;
+    display: block;
+    width: calc(121% + 1.3px);
+    height: 143px;
+}
+
+.custom-shape-divider-top-1697578780 .shape-fill {
+    fill: #021024;
+}
+
+.custom-shape-divider-bottom-1697579167 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1697579167 svg {
+    position: relative;
+    display: block;
+    width: calc(121% + 1.3px);
+    height: 143px;
+}
+
+.custom-shape-divider-bottom-1697579167 .shape-fill {
+    fill: #021024;
+}
+.message-box {
+    width: 500px; /* Adjust the width as needed */
+    padding: 70px;
+    margin: auto;
+    background-color: #fff; /* Background color for the card */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Box shadow for the card */
+    border-radius: 5px; /* Rounded corners for the card */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Center the card in the middle of the page */
+  
+  
+.save-button{
+    width: 100px;
+    border: none;
+    border-radius: 30px;
+    
+    height: 30px;
+    background: #3498db;
+    color: white;
+    font-size: 16px;
+
+}
+.save-button:hover{
+    background-color: #021024;
+}

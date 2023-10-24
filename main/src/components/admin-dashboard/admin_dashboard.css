@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  p {
+    font-size: 18px;
+  }
+
+  .h2{
+    color: white;
+    margin: auto;
+  }
+
+
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+  }
+  
+  .logo {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    background-color: white;
+  }
+  
+  .img {
+    width: 70px;
+    margin-right: 10px;
+    height: auto;
+  }
+/* Define CSS properties for the "login-btn1" class */
+.login-btn2 {
+  background-color: #3498db; /* Background color */
+  color: #fff;              /* Text color */
+  padding: 10px 20px;       /* Padding around the text */
+  border: none;  
+  margin-left: 1690px;           /* Remove the border */
+  border-radius: 30px;       /* Add rounded corners */
+  text-decoration: none;    /* Remove underlines */
+  display: inline-block;    /* Display as a block-level element */
+  font-size: 16px;          /* Font size */
+  cursor: pointer;          /* Cursor style on hover */
+  text-align: center;
+  /* You can add more styles as needed */
+}
+
+/* Define styles for when the button is hovered over */
+.login-btn2:hover {
+  background-color: #2980b9; /* Change background color on hover */
+}
+
+
+  /* user_signup.css */
+/* user_signup.css */
+
+.bg-img{
+    height: 700px;
+}
+.div1 {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;  
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+
+
+.sidebar{
+  z-index: 1;
+    width: 200px;
+    justify-content: center;
+    text-align: center;
+    height:793px;
+    background-color: #021024;
+    margin: 0;
+    margin-top: -20px;
+    padding: 20px;
+
+}
+
+.sidebaropt{
+    width: auto;
+    padding-top: 10px;
+    display: flex;
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid #2980b9;
+    border-radius:30px ;
+}
+.booking-text{
+  text-decoration: none;
+  margin: auto;
+  text-align: center;
+  
+}
+
+.main{
+  justify-content: center;
+  margin-left: 250px;
+  width: 80%;
+  margin-top: -800px;
+}
+

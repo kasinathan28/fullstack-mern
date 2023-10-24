@@ -1,0 +1,65 @@
+/* Add this CSS to your stylesheet or a separate CSS file */
+
+.admin-details-card {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .profile-picture {
+    text-align: center;
+  }
+  
+  .profile-bg{
+    background-color: #ddd;
+
+  }
+
+  .profile-picture img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 10px 0;
+  }
+  
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  .button-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .save-button,
+  .edit-button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+  }
+  
+  .save-button:hover,
+  .edit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .left{
+    text-align: left;
+    padding: 10px;
+  }
+
+  .margin{
+    margin-top: 50px;
+  }
